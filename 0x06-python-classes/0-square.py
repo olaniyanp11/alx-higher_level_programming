@@ -4,7 +4,5 @@
 
 class Square:
     def Square(self):
-        """Squares:
-        args:
-            self: first parameter
-        """
+        """Squares empty"""
+        pass
