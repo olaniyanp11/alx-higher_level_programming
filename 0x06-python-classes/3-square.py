@@ -20,7 +20,12 @@ class Square:
     def area(self):
         """
         Args:
-             self : create an instance
-             Return : the current area of the  square
+             self :
+                create an instance
+             Return : 
+                the current area of the  square
         """
-        return self.__size ** 2
+        if self.__size == 0:
+            return self.__size
+        else:
+            return self.__size ** 2
