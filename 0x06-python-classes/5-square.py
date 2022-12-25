@@ -16,18 +16,17 @@ class Square:
 
     @size.setter
     def position(self, value):
-        if isinstance(value,int):
+        if isinstance(value, int):
             self.__size = value
         else:
             raise TypeError("size must be an integer")
 
         if value < 0:
             raise ValueError("size must be >= 0")
+
     def my_print(self):
         for i in range(self.__size ** 2):
             if (i % self.__size == 0) and i != 0:
                 print()
-            print("#",end="")
+            print("#", end="")
         print()
-             
-
