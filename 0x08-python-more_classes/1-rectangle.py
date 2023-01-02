@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""creating a class that  defines a string
+"""a class rectangle that gets the height and width of a rectangle
 """
 
 
 class Rectangle:
     """
-    an empty class
+    a class that gets the width and height of rectanle
     """
     def __init__(self, width=0, height=0):
         self.__height = height
@@ -17,6 +17,9 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
+        """
+        @value - receives the value of height
+        """
         if isinstance(value, int):
             self.__height = value
         else:
@@ -30,6 +33,9 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
+        """
+        @value - receives the value of width
+        """
         if isinstance(value, int):
             self.__width = value
         else:
