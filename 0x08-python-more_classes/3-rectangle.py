@@ -61,7 +61,7 @@ class Rectangle:
     def __str__(self):
         area = self.__width * self.__height
         for i in range(area):
-            if i % self.__width == 0 and i!= 0:
+            if (i % self.__width == 0) and i != 0:
                 print()
-            print("#",end="")
+            print("#", end="")
         return ""
