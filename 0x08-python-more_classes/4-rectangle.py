@@ -59,15 +59,15 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        if (self.__width != 0) or (self.__height != 0):
+        if self.__width != 0 and self.__height != 0:
             area = self.__width * self.__height
             for i in range(area):
                 if (i % self.__width == 0) and i != 0:
                     print()
                 print("#", end="")
             return ""
-        elif (self.__width == 0) or (self.__height == 0):
-            return ""
+        else:
+            return str()
 
     def __repr__(self):
         return f'Rectangle({self.__width},{self.__height})'
