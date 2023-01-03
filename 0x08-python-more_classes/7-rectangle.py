@@ -7,9 +7,13 @@ class Rectangle:
     """
     a class that gets the width and height of rectanle
     """
+    number_of_instances = 0
+    print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
+        Rectangle.number_of_instances += 1
 
     @property
     def height(self):
@@ -59,9 +63,19 @@ class Rectangle:
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        area = self.__width * self.__height
-        for i in range(area):
-            if (i % self.__width == 0) and i != 0:
-                print()
-            print("#", end="")
-        return ""
+        if self.__width != 0 and self.__height != 0:
+            area = self.__width * self.__height
+            for i in range(area):
+                if (i % self.__width == 0) and i != 0:
+                    print()
+                print(self.print_symbol, end="")
+            return ""
+        else:
+            return str()
+
+    def __repr__(self):
+        return f'Rectangle({self.__width}, {self.__height})'
+
+    def __del__(self):
+        print(f"Bye rectangle...")
+        Rectangle.number_of_instances -= 1
