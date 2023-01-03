@@ -1,2 +1,2 @@
 >>>type
-
+<class '__main__'>
