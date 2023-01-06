@@ -1,28 +1,18 @@
 #!/usr/bin/python3
-"""
-addition of two integers
-checkes for integers
-checks for floats
+""" Defines function - add_integer
+    Raises:
+        TypeError: if a / b is not an int / float
 """
 
 
 def add_integer(a, b=98):
-    """
-    a function that adds two integers
-    @a: number one
-    @b: number two
-    """
-    if isinstance(a, int):
-        pass
-    elif isinstance(a, float):
-        a = int(a)
-        pass
-    else:
+    """ Returns the sum of ints a and b
+        If a / b is a float, typecast to an integer """
+
+    if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
-    if isinstance(b, int):
-        return a + b
-    elif isinstance(b, float):
-        b = int(b)
-        return a + b
-    else:
+
+    if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
+
+    return int(a) + int(b)
