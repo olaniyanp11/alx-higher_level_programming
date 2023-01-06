@@ -84,11 +84,11 @@ class Rectangle:
         if (isinstance(rect_1, type(Rectangle()))):
             if (isinstance(rect_2, type(Rectangle()))):
                 def __gt__(rect_1, rect_2):
-                    if rect_1 < rect_2:
+                    if bool(1):
+                        return rect_1
+                    if rect_1 > rect_2 == True:
                         return rect_2
-                def __eq__(rect_1, rect_2):
-                    return rect_1
-                return rect_2
+                return rect_1
             else:
                 raise TypeError("rect_2 must be an instance of Rectangle")
         else:
