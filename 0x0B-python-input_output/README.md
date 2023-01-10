@@ -3,3 +3,4 @@
 ### task-1: Write to a file
 ### task-0: Append to a file
 ### task 3. To JSON string
+task 4. From JSON string to Object
