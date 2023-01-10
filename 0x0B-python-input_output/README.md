@@ -2,3 +2,4 @@
 ### task-0: Read file
 ### task-1: Write to a file
 ### task-0: Append to a file
+### task 3. To JSON string

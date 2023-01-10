@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    a function that appends a string 
+    a function that appends a string
 """
 
 
