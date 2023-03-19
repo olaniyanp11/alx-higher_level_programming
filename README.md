@@ -1,5 +1,5 @@
 <h1>A repository for HIGH-LEVEL-PROGRAMMING</h1>
-# Higher-level programming - Python
+<h2> Higher-level programming - Python</h2>
 <ul>
 <li>  0x00. Python - Hello, World
 </li>
@@ -25,7 +25,22 @@
 </li>
  <li> 0x0C. Python - Almost a circle 
 </li>
- <li start="1">
-# Higher-level programming - Javascript
+ <li>
+<h2>Higher-level programming - Javascript</h2>
 </li>
+ <li> 0x12. JavaScript - Warm up
+ </li>
+  <li> 0x13. JavaScript - Objects, Scopes and Closures 
+ </li>
+ <h2>Higher-level programming - Databases</h2>
+  <li> 0x0D. SQL - Introduction 
+ </li>
+   <li> 0x0E. SQL - More queries  
+ </li>
+
+  <h2>Higher-level programming - AirBnB clone</h2>
+   <li>  0x00. AirBnB clone - The console 
+    </li>
+    <li>   0x01. AirBnB clone - Web static 
+    </li>
 </ul>
