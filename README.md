@@ -1,5 +1,6 @@
 <h1>A repository for HIGH-LEVEL-PROGRAMMING</h1>
 # Higher-level programming - Python
+<ul>
 <li>  0x00. Python - Hello, World
 </li>
 <li>0x01. Python - if/else, loops, functions 
@@ -12,7 +13,7 @@
  <li>0x05. Python - Exceptions 
 </li>
 <li> 0x06. Python - Classes and Objects 
-</li># <li>0x08. Python - More Classes and Objects 
+</li><li>0x08. Python - More Classes and Objects 
 </li>
  <li> 0x09. Python - Everything is object 
 </li>
@@ -26,4 +27,4 @@
 </li>
  <li start="1">  Higher-level programming - Javascript
 </li>
-</ol>
+</ul>
