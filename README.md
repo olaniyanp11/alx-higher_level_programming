@@ -25,9 +25,7 @@
 </li>
  <li> 0x0C. Python - Almost a circle 
 </li>
- <li>
 <h2>Higher-level programming - Javascript</h2>
-</li>
  <li> 0x12. JavaScript - Warm up
  </li>
   <li> 0x13. JavaScript - Objects, Scopes and Closures 
