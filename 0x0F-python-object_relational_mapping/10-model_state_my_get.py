@@ -19,7 +19,8 @@ if __name__ == "__main__":
     session = Session()
     # query the database
     states = session.query(State)\
-        .filter(State.name.like('{}'.format(sys.argv[4]))).order_by(State.id).all()
+        .filter(State.name.like('{}'
+                                .format(sys.argv[4]))).order_by(State.id).all()
     if len(states) == 0:
         print("Not found")
     else:
