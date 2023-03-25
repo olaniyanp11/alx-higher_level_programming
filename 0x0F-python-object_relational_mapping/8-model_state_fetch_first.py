@@ -19,7 +19,7 @@ if __name__ == "__main__":
     session = Session()
     # query the database
     states = session.query(State).order_by(State.id).first()
-    if states == None:
+    if states is None:
         print("Nothing")
     else:
         print("{}: {}".format(states.id, states.name))
